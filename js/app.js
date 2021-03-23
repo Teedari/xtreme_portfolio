@@ -24,6 +24,7 @@
     }else {
       document.querySelector('#navbar').classList.toggle('hide')
       humberger.innerHTML = '_';
+      humberger.style.color = 'teal';
     }
   
   });

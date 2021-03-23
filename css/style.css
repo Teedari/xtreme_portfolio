@@ -240,7 +240,9 @@ header.drop{
 
 
 
-
+.humberger span {
+  color: teal;
+}
 @media (max-width: 600px){
   
 
@@ -252,6 +254,10 @@ header.drop{
     right: 25px;
     font-size: 2.5rem;
     
+  }
+
+  .humberger {
+    color: teal;
   }
 
   header{
@@ -339,8 +345,14 @@ header.drop{
   }
   
   .banner .content p{
-    font-size: .8rem;
+    font-size: .6rem;
     color: #fff;
+  }
+
+
+  /*----- About -------*/
+  .info p{
+    font-size: .8rem;
   }
 
 }
